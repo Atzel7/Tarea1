@@ -1,12 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Tarea1
 {
-    internal class Circulo
+    internal class circulo
     {
+        public float r;
+
+        public circulo(float r)
+        {
+            this.r = r;
+        }
+
+        public float CalcularArea()
+        {
+            return 3.14f * (r * r);
+        }
+
+        public float CalcularPerimetro()
+        {
+            return 2 * 3.14f * r;
+        }
     }
 }
