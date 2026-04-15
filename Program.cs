@@ -55,12 +55,11 @@ namespace Tarea1
                     Console.WriteLine("Opción no válida.");
                 }
 
-                // Punto clave: Preguntar si desea continuar para controlar el ciclo
-                Console.WriteLine("\n¿Desea introducir 'sí' para continuar o 'no' para terminar?");
+                Console.WriteLine("\n¿Desea continuar? ('sí' o 'no')");
                 continuar = Console.ReadLine();
             }
 
-            Console.WriteLine("Programa finalizado.");
+            
         }
     }
 }
